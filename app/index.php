@@ -17,6 +17,9 @@
     <!-- Main -->
     <?php include 'dist/content/index.php' ?>
 
+    <!-- Footer -->
+    <?php include 'dist/footer.php' ?>
+
     <!-- JS Library -->
     <?php include 'dist/js.all.php' ?>
     <!-- Page specific javascripts-->

@@ -1,10 +1,10 @@
     <aside class="app-sidebar">
-      <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="../assets/img/user-default.png" alt="User Image" width="50">
+      <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="../assets/img/user-default.jpg" alt="User Image" width="50">
         <div>
           <table>
             <tr>
               <td class="app-sidebar__user-name" style="max-width: 140px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
-                Muhammad Sholehudin
+                Kharis Wijayanto
               </td>
             </tr>
             <tr>
