@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Vali Admin - Free Bootstrap 4 Admin Template</title>
+  <title>Profile</title>
   <?php include 'dist/head.php' ?>
   </head>
   <body class="app sidebar-mini rtl">
@@ -23,5 +23,6 @@
     <!-- JS Library -->
     <?php include 'dist/js.all.php' ?>
     <!-- Page specific javascripts-->
+    <script src="dist/js/profile.js"></script>
   </body>
 </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Kegiatan Harian</title>
+  <title>Profile</title>
   <?php include 'dist/head.php' ?>
   </head>
   <body class="app sidebar-mini rtl">
@@ -15,7 +15,7 @@
     <?php include 'dist/left-nav.php' ?>
 
     <!-- Main -->
-    <?php include 'dist/content/kegiatanharian.php' ?>
+    <?php include 'dist/content/backupandrestore.php' ?>
 
     <!-- Footer -->
     <?php include 'dist/footer.php' ?>
@@ -23,10 +23,5 @@
     <!-- JS Library -->
     <?php include 'dist/js.all.php' ?>
     <!-- Page specific javascripts-->
-    <script src="../src/vendor/datatables/jquery.dataTables.min.js"></script>
-    <script src="../src/vendor/datatables/dataTables.bootstrap4.min.js"></script>
-    <script src="../dist/js/datatables-demo.js"></script>
-
-    <script src="dist/js/kegiatanharian.js"></script>
   </body>
 </html>

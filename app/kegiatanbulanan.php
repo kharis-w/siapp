@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Vali Admin - Free Bootstrap 4 Admin Template</title>
+  <title>Kegiatan Bulanan</title>
   <?php include 'dist/head.php' ?>
   </head>
   <body class="app sidebar-mini rtl">

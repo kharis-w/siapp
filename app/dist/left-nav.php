@@ -58,10 +58,10 @@
         </li>
         <hr style="background-color: white; width: 80%;">
         <li>
-          <a class="app-menu__item" href="#"><i class="app-menu__icon fa fa-list fa-lg"></i><span class="app-menu__label">&nbsp;Data Pegawai</span></a>
+          <a class="app-menu__item" href="#"><i class="app-menu__icon fa fa-users fa-lg"></i><span class="app-menu__label">&nbsp;Data Pegawai</span></a>
         </li>
         <li>
-          <a class="app-menu__item" href="#"><i class="app-menu__icon fa fa-undo-alt fa-lg"></i><span class="app-menu__label">&nbsp;Backup And Restore</span></a>
+          <a class="app-menu__item" href="backupandrestore.php"><i class="app-menu__icon fa fa-undo-alt fa-lg"></i><span class="app-menu__label">&nbsp;Backup And Restore</span></a>
         </li>
       </ul>
     </aside>
