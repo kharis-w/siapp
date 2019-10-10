@@ -1,0 +1,63 @@
+Kegiatan Tahunan
+	-Download Template
+	-Browse Template
+	-Upload Excel
+	-Data Table
+		-No
+		-Tahun
+		-Kegiatan Tahunan
+		-Target Kuantitas
+		-Breakdown
+		-Action
+	-Add Kegiatan
+		-Tahun Kegiatan(text)
+		-Target Kuantitas
+		-Ket Kuantitas(select)
+		-Target Penyelesaian (bulan)(select)
+		-Deskripsi(textarea)
+--------------------------------------------------
+Kegiatan Bulanan
+	-Select Tahun(Search)
+	-Print
+	-Data Table
+--------------------------------------------------
+Kegiatan Harian
+	-Data Table
+		-No
+		-Tanggal
+		-Kegiatan
+		-Kuantitas
+		-Status
+		-Revisi
+		-Action
+	-Add
+		-Tanggal Kegiatan
+		-Jenis Kegiatan
+			-Klasifikasi Tugas Tahunan
+			-Klasifikasi Tugas Bulanan
+		-Input Progress???
+		-From Library???
+		-Kuantitas
+			-Jumlah
+			-Kuantitas
+--------------------------------------------------
+Kegiatan Tambahan
+	-Data Table
+		-No
+		-Tanggal
+		-Kgiatan
+		-Action
+	-Add
+		-Tanggal Kegiatan
+		-Deskripsi Kegiatan
+--------------------------------------------------
+Produktifitas
+	-Data Table
+		-No
+		-Tanggal
+		-Kegiatan
+		-Status
+		-Action
+	-Add
+		-Tanggal Kegiatan
+		-Deskripsi Kegiatan

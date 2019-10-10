@@ -17,3 +17,5 @@
     <link rel="stylesheet" type="text/css" href="../dist/css/main.css">
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="../src/vendor/fontawesome-free/css/all.min.css">
+    <!-- dataTable -->
+    <link href="../src/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
