@@ -10,6 +10,7 @@
         <button id="btn-add-kegiatan-harian" class="btn btn-primary btn-circle"><i class="fa fa-plus fa-lg" style="font-size: 20px;"></i></button>
       </div>
     </div>
+    
     <?php include 'form/kegiatanharian.php' ?>
 
     <?php include 'dataTable/kegiatanharian.php' ?>

@@ -1,5 +1,4 @@
 var shortcut = document.kegiatanharian;
-
 jQuery(document).ready(function() {
     // hide panelForm1
     jQuery('#panelForm1').hide();
