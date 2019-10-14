@@ -3541,10 +3541,6 @@ tbody.collapse.show {
   width: 3.5rem;
   font-size: 1.35rem;
 }
-.btn-circle > i
-{
-  margin-left: 5px;
-}
 
 .input-group {
   position: relative;
@@ -14514,8 +14510,8 @@ be a descendant of the grid when it is being dragged.
 
 .login-content .login-box {
   position: relative;
-  min-width: 350px;
-  min-height: 390px;
+  width: 350px;
+  height: 350px;
   background-color: #fff;
   -webkit-box-shadow: 0px 29px 147.5px 102.5px rgba(0, 0, 0, 0.05), 0px 29px 95px 0px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 29px 147.5px 102.5px rgba(0, 0, 0, 0.05), 0px 29px 95px 0px rgba(0, 0, 0, 0.16);
@@ -14527,7 +14523,7 @@ be a descendant of the grid when it is being dragged.
 }
 
 .login-content .login-box .login-head {
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #ddd;

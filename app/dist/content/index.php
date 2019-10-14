@@ -1,10 +1,10 @@
 <main class="app-content">
   <div class="app-title">
     <div>
-      <h1><i class="fa fa-home"></i> Dashboard</h1>
+      <h1><i class="fas fa-home"></i> Dashboard</h1>
     </div>
     <ul class="app-breadcrumb breadcrumb">
-      <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
+      <li class="breadcrumb-item"><i class="fas fa-home fa-lg"></i></li>
       <li class="breadcrumb-item">
         <a href="#">Dashboard</a>
       </li>
@@ -13,7 +13,7 @@
   <div class="row">
     <div class="col-md-6 col-lg-3">
       <div class="widget-small primary coloured-icon">
-        <i class="icon fa fa-users fa-3x"></i>
+        <i class="icon fas fa-users fa-lg"></i>
         <div class="info">
           <h4>Users</h4>
           <p><b>5</b></p>
@@ -22,7 +22,7 @@
     </div>
     <div class="col-md-6 col-lg-3">
       <div class="widget-small info coloured-icon">
-        <i class="icon fa fa-star fa-3x"></i>
+        <i class="icon fas fa-star fa-lg"></i>
         <div class="info">
           <h4>Likes</h4>
           <p><b>25</b></p>
@@ -31,7 +31,7 @@
     </div>
     <div class="col-md-6 col-lg-3">
       <div class="widget-small warning coloured-icon">
-        <i class="icon fa fa-list fa-3x"></i>
+        <i class="icon fas fa-list fa-lg"></i>
         <div class="info">
           <h4>Uploades</h4>
           <p><b>10</b></p>
@@ -40,7 +40,7 @@
     </div>
     <div class="col-md-6 col-lg-3">
       <div class="widget-small danger coloured-icon">
-        <i class="icon fa fa-star fa-3x"></i>
+        <i class="icon fas fa-star fa-lg"></i>
         <div class="info">
           <h4>Stars</h4>
           <p><b>500</b></p>
@@ -83,7 +83,7 @@
         </ul>
         <p>Vali is a free and responsive admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.</p>
         <p>Vali is is light-weight, expendable and good looking theme. The theme has all the features required in a dashboard theme but this features are built like plug and play module. Take a look at the <a href="http://pratikborsadiya.in/blog/vali-admin" target="_blank">documentation</a> about customizing the theme colors and functionality.</p>
-        <p class="mt-4 mb-4"><a class="btn btn-primary mr-2 mb-2" href="http://pratikborsadiya.in/blog/vali-admin" target="_blank"><i class="fa fa-file"></i>Docs</a><a class="btn btn-info mr-2 mb-2" href="https://github.com/pratikborsadiya/vali-admin" target="_blank"><i class="fa fa-github"></i>GitHub</a><a class="btn btn-success mr-2 mb-2" href="https://github.com/pratikborsadiya/vali-admin/archive/master.zip" target="_blank"><i class="fa fa-download"></i>Download</a></p>
+        <p class="mt-4 mb-4"><a class="btn btn-primary mr-2 mb-2" href="http://pratikborsadiya.in/blog/vali-admin" target="_blank"><i class="fas fa-file"></i>Docs</a><a class="btn btn-info mr-2 mb-2" href="https://github.com/pratikborsadiya/vali-admin" target="_blank"><i class="fas fa-github"></i>GitHub</a><a class="btn btn-success mr-2 mb-2" href="https://github.com/pratikborsadiya/vali-admin/archive/master.zip" target="_blank"><i class="fas fa-download"></i>Download</a></p>
       </div>
     </div>
     <div class="col-md-6">

@@ -8,7 +8,7 @@ if (empty($_SESSION[username]) AND empty($_SESSION[password])) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Kegiatan Harian</title>
+  <title>Data Pegawai</title>
   <?php include 'dist/head.php' ?>
 </head>
 <body class="app sidebar-mini rtl">
@@ -19,7 +19,7 @@ if (empty($_SESSION[username]) AND empty($_SESSION[password])) {
   <!-- Leftnav -->
   <?php include 'dist/left-nav.php' ?>
   <!-- Main -->
-  <?php include 'dist/content/kegiatanbulanan.php' ?>
+  <?php include 'dist/content/datapegawai.php' ?>
   <!-- Footer -->
   <?php include 'dist/footer.php' ?>
   <!-- JS Library -->
@@ -28,6 +28,6 @@ if (empty($_SESSION[username]) AND empty($_SESSION[password])) {
   <script src="../src/vendor/datatables/jquery.dataTables.min.js"></script> 
   <script src="../src/vendor/datatables/dataTables.bootstrap4.min.js"></script> 
   <script src="../dist/js/datatables-demo.js"></script> 
-  <script src="dist/js/kegiatanbulanan.js"></script>
+  <script src="dist/js/datapegawai.js"></script>
 </body>
 </html>

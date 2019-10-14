@@ -8,7 +8,7 @@ jQuery(document).ready(function() {
         jQuery('#panelForm1').show(500);
         jQuery('#panelForm2').hide(500);
         jQuery('#act').val('add_kegiatan_bulanan');
-        $('#id_siswa').prop('readonly', false);
+        $('#id_kegiatan_bulanan').prop('readonly', false);
     });
     // cancel button
     jQuery('#btn-cancel').click(function() {

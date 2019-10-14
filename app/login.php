@@ -11,6 +11,7 @@
   <?php include 'dist/footer.php' ?>
   <!-- JS Library -->
   <?php include 'dist/js.all.php' ?>
+  <script src="dist/js/login.js"></script>
   <script type="text/javascript">
        // Login Page Flipbox control
        $('.login-content [data-toggle="flip"]').click(function() {

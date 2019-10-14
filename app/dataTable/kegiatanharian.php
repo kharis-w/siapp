@@ -24,9 +24,9 @@
               <td>1</td>
               <td>1</td>
               <td>
-                <button class="btn btn-info btn-circle"><i class="fa fa-info" style="font-size: 20px;"></i></button>
-                <button class="btn btn-warning btn-circle"><i class="fa fa-pen" style="font-size: 20px;"></i></button>
-                <button class="btn btn-danger btn-circle"><i class="fa fa-trash" style="font-size: 20px;"></i></button>
+                <button class="btn btn-info btn-circle"><i class="fas fa-info fa-lg"></i></button>
+                <button class="btn btn-warning btn-circle"><i class="fas fa-pen fa-lg"></i></button>
+                <button class="btn btn-danger btn-circle"><i class="fas fa-trash fa-lg"></i></button>
               </td>
             </tr>
           </tbody>

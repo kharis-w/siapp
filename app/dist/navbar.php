@@ -9,7 +9,7 @@
           <a class="dropdown-item" href="profile.php"><i class="fa fa-user fa-lg"></i> Profile</a>
         </li>
         <li>
-          <a class="dropdown-item" href="logout.php"><i class="fa fa-power-off fa-lg"></i> Logout</a>
+          <a class="dropdown-item" href="#" onclick="logout()"><i class="fa fa-power-off fa-lg"></i> Logout</a>
         </li>
       </ul>
     </li>

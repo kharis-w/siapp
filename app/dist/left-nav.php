@@ -20,13 +20,13 @@
       <a class="app-menu__item" data-toggle="treeview" href="#"><i class="app-menu__icon fa fa-walking fa-lg"></i><span class="app-menu__label">&nbsp;Kegiatan</span><i class="treeview-indicator fa fa-angle-right"></i></a>
       <ul class="treeview-menu">
         <li>
-          <a class="treeview-item" href="kegiatantahunan.php"><i class="icon fa fa-circle fa-sm"></i> Tahunan</a>
+          <a class="treeview-item" href="kegiatantahunan.php"><i class="icon fa fa-circle-notch fa-sm"></i> Tahunan</a>
         </li>
         <li>
-          <a class="treeview-item" href="kegiatanbulanan.php"><i class="icon fa fa-circle fa-sm"></i>Bulanan</a>
+          <a class="treeview-item" href="kegiatanbulanan.php"><i class="icon fa fa-circle-notch fa-sm"></i>Bulanan</a>
         </li>
         <li>
-          <a class="treeview-item" href="kegiatanharian.php"><i class="icon fa fa-circle fa-sm"></i>Harian</a>
+          <a class="treeview-item" href="kegiatanharian.php"><i class="icon fa fa-circle-notch fa-sm"></i>Harian</a>
         </li>
       </ul>
     </li>
@@ -34,13 +34,13 @@
       <a class="app-menu__item" data-toggle="treeview" href="#"><i class="app-menu__icon fa fa-file fa-lg"></i><span class="app-menu__label">&nbsp;Laporan</span><i class="treeview-indicator fa fa-angle-right"></i></a>
       <ul class="treeview-menu">
         <li>
-          <a class="treeview-item" href="bootstrap-components.html"><i class="icon fa fa-circle fa-sm"></i> Laporan Tahunan</a>
+          <a class="treeview-item" href="#"><i class="icon fa fa-circle-notch fa-sm"></i> Laporan Tahunan</a>
         </li>
         <li>
-          <a class="treeview-item" href="#" rel="noopener" target="_blank"><i class="icon fa fa-circle fa-sm"></i>Laporan Bulanan</a>
+          <a class="treeview-item" href="#"><i class="icon fa fa-circle-notch fa-sm"></i>Laporan Bulanan</a>
         </li>
         <li>
-          <a class="treeview-item" href="ui-cards.html"><i class="icon fa fa-circle fa-sm"></i>Laporan Jumlah Kegiatan</a>
+          <a class="treeview-item" href="#"><i class="icon fa fa-circle-notch fa-sm"></i>Laporan Jumlah Kegiatan</a>
         </li>
       </ul>
     </li>
@@ -49,9 +49,24 @@
     </li>
     <li style="list-style: none; display: inline">
       <hr style="background-color: white; width: 80%;">
+    <li class="treeview">
+      <a class="app-menu__item" data-toggle="treeview" href="#"><i class="app-menu__icon fa fa-check fa-lg"></i><span class="app-menu__label">&nbsp;Persetujuan</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+      <ul class="treeview-menu">
+        <li>
+          <a class="treeview-item" href="#"><i class="icon fa fa-circle-notch fa-sm"></i> Kegiatan Tahunan</a>
+        </li>
+        <li>
+          <a class="treeview-item" href="#"><i class="icon fa fa-circle-notch fa-sm"></i> Kegiatan Bulanan</a>
+        </li>
+      </ul>
+    </li>
+      <hr style="background-color: white; width: 80%;">
     </li>
     <li>
-      <a class="app-menu__item" href="#"><i class="app-menu__icon fa fa-users fa-lg"></i><span class="app-menu__label">&nbsp;Data Pegawai</span></a>
+      <a class="app-menu__item" href="datapegawai.php"><i class="app-menu__icon fa fa-users fa-lg"></i><span class="app-menu__label">&nbsp;Data Pegawai</span></a>
+    </li>
+    <li>
+      <a class="app-menu__item" href="usermanage.php"><i class="app-menu__icon fa fa-cogs fa-lg"></i><span class="app-menu__label">&nbsp;User Management</span></a>
     </li>
     <li>
       <a class="app-menu__item" href="backupandrestore.php"><i class="app-menu__icon fa fa-undo-alt fa-lg"></i><span class="app-menu__label">&nbsp;Backup And Restore</span></a>

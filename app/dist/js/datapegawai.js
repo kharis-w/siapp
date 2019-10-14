@@ -1,12 +1,13 @@
-var shortcut = document.profile;
+var shortcut = document.datapegawai;
 jQuery(document).ready(function() {
     // hide panelForm1
     jQuery('#panelForm1').hide();
     // add button
-    jQuery('#btn-edit-profile').click(function() {
+    jQuery('#btn-add-pegawai').click(function() {
         jQuery('#bookform_input')[0].reset();
         jQuery('#panelForm1').show(500);
         jQuery('#panelForm2').hide(500);
+        jQuery('#act').val('adddatapegawai');
         $('#id_pgw').prop('readonly', false);
     });
     // cancel button
@@ -22,7 +23,7 @@ jQuery(document).ready(function() {
 var shortcut = document.bookform_input;
 
 // Tambah pgw
-function addprofile() {
+function adddatapegawai() {
     var form                = $('#bookform_input')[0];
     var formData            = new FormData(form);
     var id_pgw            = $('#id_pgw').val();
@@ -34,9 +35,6 @@ function addprofile() {
     var no_telpn_pgw       = $('#no_telpn_pgw').val();
     var alamat_pgw               = $('#alamat_pgw').val();
     var img_pgw              = $('#img_pgw').val();
-    var old_password              = $('#old_password').val();
-    var password              = $('#password').val();
-    var pass              = $('#pass').val();
     var act                 = $('#act').val();
     var id                  = $('#id').val();
 
@@ -91,7 +89,7 @@ function addprofile() {
         shortcut.alamat_pgw.style.borderWidth = "medium";
 
     
-    $.post("modul/profile.php", {
+    $.post("modul/datapegawai.php", {
         act             : act,
         id              : id,
         id_pgw        : id_pgw,
@@ -102,10 +100,7 @@ function addprofile() {
         unit_kerja_pgw      : unit_kerja_pgw,
         no_telpn_pgw   : no_telpn_pgw,
         alamat_pgw           : alamat_pgw,
-        img_pgw          : img_pgw,
-        old_password          : old_password,
-        password          : password,
-        pass          : pass
+        img_pgw          : img_pgw
     }, function(data, status) {
         if (data == '1') {
             location.reload();
@@ -115,15 +110,15 @@ function addprofile() {
 
 // Edit pgw
 function editData(id) {
-    $.post("modul/profile.php", {
+    $.post("modul/datapegawai.php", {
         id  : id,
-        act : 'profile'
+        act : 'datapegawai'
     }, function(data, status) {
         if (status == 'success') {
             var temp = data.split('#');
             jQuery('#panelForm1').show(500);
             jQuery('#panelForm2').hide(500);
-            jQuery('#act').val('editprofile');
+            jQuery('#act').val('editdatapegawai');
             jQuery('#id').val(temp[0]);
             $('#id_pgw').val(temp[0]);
             $('#nama_pgw').val(temp[1]);
@@ -139,9 +134,29 @@ function editData(id) {
     });
 }
 
-
-function changepass(){
-    $('#display_old_password').css('display','block');
-    $('#display_password').css('display','block');
-    $('#display_pass').css('display','block');
-};
+// Hapus pgw
+function delData(id, no) {
+    swal({
+        title       : "Apakah anda yakin ?",
+        text        : "File yang dihapus tidak dapat dikembalikan !",
+        icon        : "warning",
+        buttons     : ["Batal", "Hapus"],
+        dangerMode  : true,
+    }).then((isConfirm) => {
+        if (isConfirm) {
+            $.post("modul/datapegawai.php", {
+                act: 'deldatapegawai',
+                id: id
+            }, function(data, status) {
+                if (status == 'success') {
+                    swal("Data berhasil dihapus!", {
+                        icon: "success",
+                    }).then(function() {
+                        location.reload();
+                    });
+                    $('#row' + no).remove();
+                }
+            });
+        }
+    });
+}

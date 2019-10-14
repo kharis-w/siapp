@@ -1,11 +1,11 @@
 <main class="app-content">
   <div class="app-title">
     <div>
-      <h1><i class="fa fa-user"></i> Backup And Restore</h1>
+      <h1><i class="fas fa-undo-alt fa-lg"></i> Backup And Restore</h1>
     </div>
   </div>
   <div class="row">
-    <div class="panel panel-default" id="panelForm1">
+    <div class="panel panel-default col-sm-12 col-md-8 offset-md-2" id="panelForm1">
       <div class="tile">
         <div class="tile-body">
           <form action="backupandrestore.php" autocomplete="off" enctype="multipart/form-data" id="bookform_input" method="post" name="bookform">
@@ -20,7 +20,7 @@
               <div class="col-sm-12">
                 <hr class="sidebar-divider d-none d-md-block">
               </div>
-              <div class="col-sm-4 offset-2" style="text-align: center; vertical-align: middle;">
+              <div class="col-sm-4 offset-md-2" style="text-align: center; vertical-align: middle;">
                 <input accept=".xml,.csv,.sql" id="restore" name="restore" onclick="mysqli_import_sql()" type="file">
               </div>
               <div class="col-sm-4" style="text-align: center; vertical-align: middle;">
