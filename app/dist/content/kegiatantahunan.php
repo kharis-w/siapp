@@ -7,7 +7,7 @@
 
   <div class="form-group">
       <div class="col-sm-4" align="left">
-        <button id="btn-add-kegiatan-tahunan" class="btn btn-primary btn-circle"><i class="fas fa-plus fa-lg" style="font-size: 20px;"></i></button>
+        <button id="btn-add-kegiatan-tahunan" class="btn btn-success btn-circle"><i class="fas fa-plus fa-lg" style="font-size: 20px;"></i></button>
       </div>
     </div>
 

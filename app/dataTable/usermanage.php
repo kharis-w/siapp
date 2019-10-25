@@ -31,9 +31,7 @@
               <td><?php echo $username; ?></td>
               <td><?php echo $category; ?></td>
               <td>
-                <button class="btn btn-info btn-circle"><i class="fas fa-info fa-lg"></i></button>
-
-                <button class="btn btn-warning btn-circle" title="Edit" onclick="editData('<?php echo $data['id_user'];?>')"><i class="fas fa-edit fa-lg"></i></button>
+                <button class="btn btn-warning btn-circle" title="Edit" onclick="editData('<?php echo $data['id_user'];?>')"><i class="fas fa-pen fa-lg"></i></button>
 
                 <button class="btn btn-danger btn-circle" title="Delete"onclick="delData('<?php echo $data['id_user']; ?>','<?php echo $no;?>')"><i class="fas fa-trash fa-lg"></i></button>
               </td>

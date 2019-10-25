@@ -34,6 +34,7 @@ function adddatapegawai() {
     var unit_kerja_pgw               = $('#unit_kerja_pgw').val();
     var no_telpn_pgw       = $('#no_telpn_pgw').val();
     var alamat_pgw               = $('#alamat_pgw').val();
+    var category_pgw              = $('#category_pgw').val();
     var img_pgw              = $('#img_pgw').val();
     var act                 = $('#act').val();
     var id                  = $('#id').val();
@@ -87,6 +88,13 @@ function adddatapegawai() {
         return false;
     } else shortcut.alamat_pgw.style.borderColor = '#33ff33';
         shortcut.alamat_pgw.style.borderWidth = "medium";
+    if (shortcut.category_pgw.value == "") {
+        shortcut.category_pgw.style.borderColor = '#ff3333';
+        shortcut.category_pgw.style.borderWidth = "medium";
+        shortcut.category_pgw.focus();
+        return false;
+    } else shortcut.category_pgw.style.borderColor = '#33ff33';
+        shortcut.category_pgw.style.borderWidth = "medium";
 
     
     $.post("modul/datapegawai.php", {
@@ -100,6 +108,7 @@ function adddatapegawai() {
         unit_kerja_pgw      : unit_kerja_pgw,
         no_telpn_pgw   : no_telpn_pgw,
         alamat_pgw           : alamat_pgw,
+        category_pgw           : category_pgw,
         img_pgw          : img_pgw
     }, function(data, status) {
         if (data == '1') {
@@ -128,7 +137,8 @@ function editData(id) {
             $('#unit_kerja_pgw').val(temp[5]);
             $('#no_telpn_pgw').val(temp[6]);
             $('#alamat_pgw').val(temp[7]);
-            $('#img_pgw').val(temp[8]);
+            $('#category_pgw').val(temp[8]);
+            $('#img_pgw').val(temp[9]);
             $('#id_pgw').prop('readonly', true);
         }
     });

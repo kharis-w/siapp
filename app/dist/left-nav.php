@@ -4,10 +4,10 @@
     <div>
       <table>
         <tr>
-          <td class="app-sidebar__user-name" style="max-width: 140px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Kharis Wijayanto</td>
+          <td class="app-sidebar__user-name" style="max-width: 140px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;"><?php echo $_SESSION['nama_user'] ?></td>
         </tr>
         <tr>
-          <td class="app-sidebar__user-designation" style="max-width: 140px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Pejabat Administrasi Rumah Tangga</td>
+          <td class="app-sidebar__user-designation" style="max-width: 140px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;"><?php echo $_SESSION['category'] ?></td>
         </tr>
       </table>
     </div>

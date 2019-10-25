@@ -45,6 +45,18 @@
                 <textarea class="form-control" type="text" id="alamat_pgw" name="alamat_pgw" rows="4"></textarea>
               </div>
             </div>
+            <div class="row">
+              <div class="form-group col-md-12">
+                  <label class="text-danger text-lg">*</label>
+                  <label>Category :</label>
+                  <select class="form-control" type="text" id="category_pgw" name="category_pgw" type="text">
+                    <option value="" disabled selected>Pilih Category</option>
+                    <option value="Pegawai">Pegawai</option>
+                    <option value="Pejabat Penilai">Pejabat Penilai</option>
+                    <option value="Atasan Pejabat Penilai">Atasan Pejabat Penilai</option>
+                  </select>
+              </div>
+            </div>
             <!-- <div class="row">
               <div class="form-group col-md-12" id="gambar_inbx_display"><img height="150" id="gambar_ksm_ada" name="gambar_ksm_ada" src="../assets/img/user-default.jpg" style="border-radius: 100%;" width="150"> <img height="150" id="gambar_ksm_kosong" name="gambar_ksm_kosong" src="../assets/img/no-image.png" width="150"></div>
               <div class="form-group col-md-12">
@@ -56,8 +68,8 @@
               <input class="form-control" id="id" name="id" type="hidden">
             </div>
             <div align="right" class="form-group col-md-12">
-              <button class="btn btn-info btn-circle" onclick="adddatapegawai()" type="button"><i class="fas fa-save fa-lg"></i></button>
-              <button class="btn btn-warning btn-circle" id="btn-cancel" type="button"><i class="fas fa-times fa-lg"></i></button>
+              <button class="btn btn-success btn-circle" onclick="adddatapegawai()" type="button"><i class="fas fa-save fa-lg"></i></button>
+              <button class="btn btn-danger btn-circle" id="btn-cancel" type="button"><i class="fas fa-times fa-lg"></i></button>
             </div>
           </form>
       </div>

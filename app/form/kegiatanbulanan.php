@@ -52,8 +52,8 @@
                <input class="form-control" id="id" name="id" type="hidden">
             </div>
             <div align="right" class="form-group col-md-12">
-               <button class="btn btn-info btn-circle" onclick="" type="button"><i class="fas fa-save fa-lg"></i></button>
-               <button class="btn btn-warning btn-circle" id="btn-cancel" type="button"><i class="fas fa-times fa-lg"></i></button>
+               <button class="btn btn-success btn-circle" onclick="" type="button"><i class="fas fa-save fa-lg"></i></button>
+               <button class="btn btn-danger btn-circle" id="btn-cancel" type="button"><i class="fas fa-times fa-lg"></i></button>
             </div>
          </form>
       </div>

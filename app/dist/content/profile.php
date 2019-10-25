@@ -75,7 +75,7 @@
                   <td colspan="4">&nbsp;</td>
                 </tr>
                 <tr>
-                  <td align="right" colspan="3"><button class="btn btn-warning btn-circle" title="Edit" onclick="editData('<?php echo $data['id_pgw'];?>')" id="btn-edit-profile" name="btn-edit-profile"><i class="fas fa-edit fa-lg"></i></button></td>
+                  <td align="right" colspan="3"><button class="btn btn-warning btn-circle" title="Edit" onclick="editData('<?php echo $data['id_pgw'];?>')" id="btn-edit-profile" name="btn-edit-profile"><i class="fas fa-pen fa-lg"></i></button></td>
                 </tr>
               </table>
             </div>

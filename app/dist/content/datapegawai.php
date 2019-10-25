@@ -6,8 +6,8 @@
       </div>
 
   <div class="form-group">
-      <div class="col-sm-4" align="left">
-        <button id="btn-add-pegawai" class="btn btn-primary btn-circle"><i class="fas fa-plus fa-lg" style="font-size: 20px;"></i></button>
+      <div class="col-sm-4" align="left" id="div_add" name="div_add">
+        <button id="btn-add-pegawai" class="btn btn-success btn-circle"><i class="fas fa-plus fa-lg" style="font-size: 20px;"></i></button>
       </div>
     </div>
 
