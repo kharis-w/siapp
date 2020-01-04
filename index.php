@@ -1,9 +1,0 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <title>HTML Meta Tag</title>
-      <meta http-equiv = "refresh" content = "2; url = app/login.php" />
-   </head>
-   <body>
-   </body>
-</html>
