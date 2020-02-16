@@ -1,9 +1,7 @@
 <?php
-include '../config/config.php';
-session_start();
-if (empty($_SESSION[username]) AND empty($_SESSION[password])) {
-    header('location:  login.php');
-}
+include '/config/config.php';
+include 'session.php'; 
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

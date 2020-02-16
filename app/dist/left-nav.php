@@ -1,6 +1,6 @@
 <aside class="app-sidebar">
   <div class="app-sidebar__user">
-    <img alt="User Image" class="app-sidebar__user-avatar" src="../assets/img/user-default.jpg" width="50">
+    <img alt="User Image" class="app-sidebar__user-avatar" src="../assets/img/userdefault.png" width="50">
     <div>
       <table>
         <tr>
@@ -59,17 +59,5 @@
           <a class="treeview-item" href="#"><i class="icon fa fa-circle-notch fa-sm"></i> Kegiatan Bulanan</a>
         </li>
       </ul>
-    </li>
-      <hr style="background-color: white; width: 80%;">
-    </li>
-    <li>
-      <a class="app-menu__item" href="datapegawai.php"><i class="app-menu__icon fa fa-users fa-lg"></i><span class="app-menu__label">&nbsp;Data Pegawai</span></a>
-    </li>
-    <li>
-      <a class="app-menu__item" href="usermanage.php"><i class="app-menu__icon fa fa-cogs fa-lg"></i><span class="app-menu__label">&nbsp;User Management</span></a>
-    </li>
-    <li>
-      <a class="app-menu__item" href="backupandrestore.php"><i class="app-menu__icon fa fa-undo-alt fa-lg"></i><span class="app-menu__label">&nbsp;Backup And Restore</span></a>
-    </li>
   </ul>
 </aside>

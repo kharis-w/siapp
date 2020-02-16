@@ -1,38 +1,35 @@
 <?php
-require_once '../../config/config.php';
+require_once '../config/config.php';
+require_once '../config/session.php'; 
 
-session_start();
 $act = $_POST['act'];
-$id  = $_POST['id'];
 
 // ////////User//////////
 
-$id_user    = $_POST['id_user'];
-$nama_user       = $_POST['nama_user'];
 $username   = $_POST['username'];
-$pass       = $_POST['pass'];
-$category   = $_POST['category'];
+$pass       = base64_encode(base64_encode($_POST['pass']));
 
 // ////////////////////////////////////////////////Login//////////////////////////////////////////////////
 
 if ($act == "login_user") {
-    $log_id = mysqli_query($conn, "SELECT * FROM m_user WHERE username='$username'");
+    $log_id = mysqli_query($conn, "SELECT * FROM m_user WHERE username='$username' && password='$pass'");
     $result = mysqli_num_rows($log_id);
     if ($result > 0) {
         $user = mysqli_fetch_array($log_id);
-        if ($pass == base64_decode(base64_decode ($user['password']))) {
-            session_start();
-            $_SESSION['id_user']    = $user['id_user'];
-            $_SESSION['nama_user']       = $user['nama_user'];
-            $_SESSION['username']   = $user['username'];
-            $_SESSION['password']   = $user['password'];
-            $_SESSION['category']   = $user['category'];
-            $status                 = '1'; //Berhasil
-        } else {
-            $status = '2'; //Password salah
-        }
+        $_SESSION['id_user']    = $user['id_user'];
+        $_SESSION['id_pgw']     = $user['id_pgw']; 
+        $_SESSION['nama_user']  = $user['nama_user'];
+        $_SESSION['username']   = $user['username'];
+        $_SESSION['password']   = $user['password'];
+        $_SESSION['category']   = $user['category'];
+
+        if($user['category'] == 'Admin'){
+             $status = '3'; 
+        } else if($user['category'] == 'Peggawai'){
+            $status = '1'; 
+        } 
     } else {
-        $status = '0'; //Tidak ditemukan
+        $status = '404'; //Tidak ditemukan
     }
 }
 

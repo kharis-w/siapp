@@ -2,8 +2,10 @@
   <div class="cover"></div>
 </section>
 <section class="login-content">
-  <div class="logo">
+  <div class="logo" align="center">
+    <img src="../assets/img/logo.png" width="100">
     <h1>S I A P P</h1>
+    <h4>Sistem Administrasi Penilaian Pegawai</h4>
   </div>
   <div class="login-box">
     <form action="login.php" class="login-form" enctype="multipart/form-data" id="bookform" method="POST" name="bookform" autocomplete="off">

@@ -111,7 +111,7 @@ function adddatapegawai() {
         category_pgw           : category_pgw,
         img_pgw          : img_pgw
     }, function(data, status) {
-        if (data == '1') {
+        if (data == '2') {
             location.reload();
         }
     });

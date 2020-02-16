@@ -1,9 +1,9 @@
-<div class="panel panel-default" id="panelForm2">
+<div class="panel panel-default" id="panelForm1" name="panelForm1">
   <div class="tile">
     <h3 class="tile-title text-center">Data Kegiatan Bulanan</h3>
     <div class="tile-body">
       <div class="table-responsive">
-        <table border="0" cellspacing="0" class="table table-hover table-bordered" id="dataTable" width="100%">
+        <table border="0" cellspacing="0" class="table table-hover table-bordered" id="TABLE_1" name="TABLE_1" width="100%">
           <thead>
             <tr>
               <th>No.</th>

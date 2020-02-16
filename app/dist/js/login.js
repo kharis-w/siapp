@@ -28,14 +28,12 @@
          if (status == 'success') {
              //$('#demo-modal-wo-anim').modal('show');
              if (data == 1) {
-                 // alert("Login berhasil.");
+                // alert("Login berhasil.");
                  window.location.replace("index.php");
-             } else if (data == 2) {
-                 swal("Error !", "Username / Password Salah !", "error").then(function() {
-                     window.location.replace("login.php");
-                 });
-             } else if (data == 0) {
-                 swal("Error !", "User Tidak Ditemukan !", "error").then(function() {
+             } else if(data == 3){
+                window.location.replace("admin/index.php");
+             } else if (data == 404) {
+                 swal("Login Gagal !",  "Silahkan Periksa Kembali Username & Password !", "error").then(function() {
                      window.location.replace("login.php");
                  });
              }
