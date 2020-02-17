@@ -6,7 +6,6 @@ require_once '../config/session.php';
 $act        = $_POST['act']; 
 $id         = $_POST['id']; 
 
-$id_item    = $_POST['id_item']; 
 $id_pgw     = $_POST['id_pgw']; 
 $waktu      = $_POST['waktu']; 
 $kual       = $_POST['kual']; 
